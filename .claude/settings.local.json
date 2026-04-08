@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -)",
+      "Bash(python -c \"import nibabel, torch, matplotlib; print\\('nibabel:', nibabel.__version__\\); print\\('torch:', torch.__version__\\); print\\('matplotlib:', matplotlib.__version__\\)\")",
+      "Bash(python -c ':*)",
+      "Read(//c/Users/yarah/Desktop/MASTERS/2 spring 2026/ai health/**)",
+      "Read(//c/Users/yarah/Desktop/capstone/ISLES-2022/sliced_numpy_arrays/sub-strokecase0001/ses-0001/**)",
+      "Read(//c/Users/yarah/Desktop/capstone/ISLES-2022/slices/**)"
+    ]
+  }
+}
