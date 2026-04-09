@@ -1,0 +1,28 @@
+# OVERVIEW
+
+This multi-center dataset consists of 250 expert-annotated magnetic resonance imaging stroke cases. It is the training dataset for the Ischemic Stroke Lesion Segmentation Challenge (ISLES'22).
+
+For each case, an expert level annotation of the stroke lesions is included along with the following three imaging sequences: Fluid attenuated inversion recovery (FLAIR), diffusion weighted imaging (DWI, b=1000) and its corresponding apparent diffusion coefficient (ADC) map. All imaging data and annotations are released in the Neuroimaging Informatics Technology Initiative (NIfTI) format (https://nifti.nimh.nih.gov/nifti-1), according to the BIDS convention. All imaging data are released in the native space without prior registration. Prior to release, skull-stripping was performed to de-identify patients.
+
+Image acquisition was performed on one of the following devices: 3T Philips MRI scanners (Achieva, Ingenia), 3T Siemens MRI scanner (Verio) or 1.5T Siemens MAGNETOM MRI scanners (Avanto, Aera). All images were obtained by healthcare professionals as part of the clinical imaging routine for stroke patients at three different stroke centers and imaging data was collected retrospectively for different clinical studies. Computer-readable scanner metadata from the Digital Imaging and Communications in Medicine (DICOM) header in the JSON file format is provided with the datasets if available.
+
+# Summary
+- 250 cases
+- 1 session
+- 3 MRI modalities
+- 1 ground truth mask
+
+# LICENSE
+CC BY 4.0
+
+#CITATION
+Please cite as follows:
+
+Petzsche, M. R. H., de la Rosa, E., Hanning, U., Wiest, R., Pinilla, W. E. V., Reyes, M., ... & Kirschke, J. S. (2022). ISLES 2022: A multi-center magnetic resonance imaging stroke lesion segmentation dataset. arXiv preprint arXiv:2206.06694.
+
+For more information, see the `dataset_description.json` file.
+
+#CONTACT
+Ezequiel de la Rosa (ezequiel.delarosa@icometrix.com)
+Jan S. Kirschke (jan.kirschke@tum.de)
+

@@ -1,0 +1,42 @@
+Downloading ISLES'22 Dataset
+
+You are downloading the ISLES'22 challenge dataset. In doing so, you are agreeing to the following terms of use:
+
+Users of this data must abide by the Data Usage Policy and the Creative Commons Attribution 4.0 International License under which it has been published. Attribution should include the reference to the following dataset citation:
+
+Petzsche, M. R. H., de la Rosa, E., Hanning, U., Wiest, R., Pinilla, W. E. V., Reyes, M., ... & Kirschke, J. S. (2022). ISLES 2022: A multi-center magnetic resonance imaging stroke lesion segmentation dataset. arXiv preprint arXiv:2206.06694.
+
+as well as the reference to the challenge paper when available.
+
+DATA USAGE POLICY
+You agree to reference the recommended bibliographic citation(s) in any publication that employs these resources. These references may be updated till 2023 and you agree to receive emails indicating those updates.
+This dataset requires the data consumer to comply with access regulations imposed both by law and by the data repository, and to conform to codes of conduct that are generally accepted in higher education and scientific research for the exchange of knowledge and information.
+By continuing past this point to the data retrieval process, you signify your agreement to comply with the requirements stated below:
+
+Privacy of RESEARCH SUBJECTS
+The Dataset is considered de-identified information as defined by the Health Insurance Portability and Accountability Act of 1996, as amended (“HIPAA”) and by the European General Data Protection Regulation (GDPR). However, by linking this dataset to other, not de-identified datasets it may be theoretically possible to identify single RESEARCH SUBJECTS of this dataset.
+Any intentional identification of a RESEARCH SUBJECT (whether an individual or an organization) or unauthorized disclosure of his or her confidential information violates the PROMISE OF CONFIDENTIALITY given to the providers of the information. Therefore, users of data agree:
+
+-To not use the Dataset, either alone or in concert with any other information, to make any effort to identify or contact individuals who are or may be the sources of the information in the Dataset.
+-If User inadvertently receives identifiable information or otherwise identifies a subject, User will promptly notify the ISLES team and follow their instructions. (ezequiel.delarosa@icometrix.com)
+-To follow relevant institutional policies and applicable federal, state, and local laws and regulations (if any) concerning the completion of IRB or ethics review or approval that may be required for the Project.
+-To make no use of the identity of any RESEARCH SUBJECT discovered inadvertently, and to advise the ISLES'22 team of any such discovery
+
+REDISTRIBUTION OF DATA
+-You agree not to redistribute data or other materials without the written agreement of the ISLES'22 team.
+When sharing data or other materials in these approved ways, you must include all accompanying files with the data, including terms of use.
+
+Publication
+The User is encouraged to make the results of the Project publicly available with appropriate citations. The User is requested to provide a courtesy copy of all published manuscripts and publications via email (ezequiel.delarosa@icometrix.com)
+
+No Warranties.
+Any Dataset delivered pursuant to this License are provided as-is. We make no representations and extend no warranties of any kind, either express or implied, concerning the Dataset. We provide no express or implied warranties of merchantability or fitness for a particular purpose, or that the use of the Dataset will not infringe any patent, copyright, trademark, or other proprietary rights of a third party.
+
+Assumption of Risk.
+Except to the extent prohibited by law, User assumes all responsibility for damages which may arise from its use, storage, disclosure, or disposal of the Dataset. UAMS will not be liable to User for any loss, claim, or demand made by User, or made against the User by any third party, arising from the use of the Dataset by User, except to the extent permitted by law when caused by the gross negligence or willful misconduct of UAMS. No indemnification or shifting of the costs of defense for any loss, claim, damage, or liability is intended or provided by either party under this License. Nothing contained herein affects any right UAMS may have to seek remedies for User’s violation of this License.
+
+Assignment.
+Except as otherwise provided in this License, User shall not assign or transfer any rights or obligations hereunder, or any part hereof. Any such purported assignment will be void.
+
+Relationship.
+Nothing in this License shall be considered to create a partnership, employment relationship, work made for hire, or any other type of joint venture.
