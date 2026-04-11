@@ -36,6 +36,7 @@ from typing import Tuple
 import torch
 import torch.nn as nn
 
+from typing import Type
 from .blocks import DoubleConv, EncoderBlock, DecoderBlock, Bottleneck
 
 
@@ -46,6 +47,7 @@ class DualEncoderUNet(nn.Module):
         out_channels: int = 1,
         features: Tuple[int, ...] = (32, 64, 128, 256),
         bilinear: bool = True,
+        bottleneck_cls: Type[Bottleneck] = Bottleneck,
     ):
         super().__init__()
         self.features = features
@@ -67,7 +69,7 @@ class DualEncoderUNet(nn.Module):
         # Output: features[-1] * 2 channels
         bn_in  = features[-1] * 2   # from concatenating both encoder outputs
         bn_out = features[-1] * 2
-        self.bottleneck = Bottleneck(bn_in, bn_out)
+        self.bottleneck = bottleneck_cls(bn_in, bn_out)
 
         # ── Decoder — skip connections are cat(dwi_skip, adc_skip) ────────
         # Each skip has features[i] channels from each encoder → features[i]*2 total
