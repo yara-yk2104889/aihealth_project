@@ -1,0 +1,9 @@
+ISLES-2022/
+checkpoints/
+visualizations/
+__pycache__/
+*.pyc
+*.pth
+*.nii.gz
+*.npy
+.DS_Store
