@@ -44,7 +44,7 @@ class SAMRefiner:
         refined = []
         for img, logit in zip(images, unet_logits):
             refined.append(self._refine_single(img, logit))
-        return torch.stack(refined, dim=0).to(unet_logits.device)
+        return torch.stack([r.to(unet_logits.device) for r in refined], dim=0)
 
     def _refine_single(
         self,
